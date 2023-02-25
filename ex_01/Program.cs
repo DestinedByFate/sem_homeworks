@@ -11,13 +11,13 @@ if (num1 > num2)
 {
     max = num1;
     min = num2;
-    Console.WriteLine("Максимальное число: " + max);
-    Console.WriteLine("Минимальное число: " + min);
+    Console.WriteLine("Большее число: " + max);
+    Console.WriteLine("Меньшее число: " + min);
 }
 else 
 {
     max = num2;
     min = num1;
-    Console.WriteLine("Максимальное число: " + max);
-    Console.WriteLine("Минимальное число: " + min);
+    Console.WriteLine("Большее число: " + max);
+    Console.WriteLine("Меньшее число: " + min);
 }
