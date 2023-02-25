@@ -7,14 +7,14 @@ double num2 = Convert.ToDouble(Console.ReadLine());
 double max = 0;
 double min = 0;
 
-if (num1 > num2) 
+if (num1 > num2)
 {
     max = num1;
     min = num2;
     Console.WriteLine("Большее число: " + max);
     Console.WriteLine("Меньшее число: " + min);
 }
-else 
+else
 {
     max = num2;
     min = num1;
